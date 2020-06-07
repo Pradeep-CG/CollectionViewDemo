@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27526AAE248C192B0059B0D4 /* NetFlixCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27526AAD248C192B0059B0D4 /* NetFlixCollectionViewCell.swift */; };
+		27526AB0248C25AB0059B0D4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27526AAF248C25AB0059B0D4 /* WeatherViewController.swift */; };
+		27526AB2248C28030059B0D4 /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27526AB1248C28030059B0D4 /* AdTableViewCell.swift */; };
+		27526AB9248C34240059B0D4 /* WeatherMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27526AB7248C34240059B0D4 /* WeatherMainCell.swift */; };
+		2752C7DA248C037D00810CF2 /* NetFlixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752C7D9248C037D00810CF2 /* NetFlixViewController.swift */; };
+		2752C7DC248C066C00810CF2 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752C7DB248C066C00810CF2 /* CategoryRow.swift */; };
 		2754F5CF248BDD45002ED765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5CE248BDD45002ED765 /* AppDelegate.swift */; };
 		2754F5D1248BDD45002ED765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5D0248BDD45002ED765 /* SceneDelegate.swift */; };
 		2754F5D3248BDD45002ED765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5D2248BDD45002ED765 /* ViewController.swift */; };
 		2754F5D6248BDD45002ED765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2754F5D4248BDD45002ED765 /* Main.storyboard */; };
 		2754F5D8248BDD4C002ED765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2754F5D7248BDD4C002ED765 /* Assets.xcassets */; };
 		2754F5DB248BDD4C002ED765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2754F5D9248BDD4C002ED765 /* LaunchScreen.storyboard */; };
+		2754F5E3248BDF5E002ED765 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5E2248BDF5E002ED765 /* GridViewController.swift */; };
+		2754F5E5248BECEA002ED765 /* GridHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5E4248BECEA002ED765 /* GridHeaderView.swift */; };
+		2754F5E7248BECFE002ED765 /* GridFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754F5E6248BECFE002ED765 /* GridFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27526AAD248C192B0059B0D4 /* NetFlixCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFlixCollectionViewCell.swift; sourceTree = "<group>"; };
+		27526AAF248C25AB0059B0D4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		27526AB1248C28030059B0D4 /* AdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTableViewCell.swift; sourceTree = "<group>"; };
+		27526AB7248C34240059B0D4 /* WeatherMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainCell.swift; sourceTree = "<group>"; };
+		2752C7D9248C037D00810CF2 /* NetFlixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFlixViewController.swift; sourceTree = "<group>"; };
+		2752C7DB248C066C00810CF2 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		2754F5CB248BDD45002ED765 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2754F5CE248BDD45002ED765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2754F5D0248BDD45002ED765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		2754F5D7248BDD4C002ED765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2754F5DA248BDD4C002ED765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2754F5DC248BDD4C002ED765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2754F5E2248BDF5E002ED765 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		2754F5E4248BECEA002ED765 /* GridHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridHeaderView.swift; sourceTree = "<group>"; };
+		2754F5E6248BECFE002ED765 /* GridFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2752C7D7248C034700810CF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2754F5E4248BECEA002ED765 /* GridHeaderView.swift */,
+				2754F5E6248BECFE002ED765 /* GridFooterView.swift */,
+				2752C7DB248C066C00810CF2 /* CategoryRow.swift */,
+				27526AAD248C192B0059B0D4 /* NetFlixCollectionViewCell.swift */,
+				27526AB1248C28030059B0D4 /* AdTableViewCell.swift */,
+				27526AB7248C34240059B0D4 /* WeatherMainCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2752C7D8248C034E00810CF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2754F5D2248BDD45002ED765 /* ViewController.swift */,
+				2754F5E2248BDF5E002ED765 /* GridViewController.swift */,
+				2752C7D9248C037D00810CF2 /* NetFlixViewController.swift */,
+				27526AAF248C25AB0059B0D4 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2754F5C2248BDD45002ED765 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +98,10 @@
 		2754F5CD248BDD45002ED765 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2752C7D8248C034E00810CF2 /* Controller */,
+				2752C7D7248C034700810CF2 /* View */,
 				2754F5CE248BDD45002ED765 /* AppDelegate.swift */,
 				2754F5D0248BDD45002ED765 /* SceneDelegate.swift */,
-				2754F5D2248BDD45002ED765 /* ViewController.swift */,
 				2754F5D4248BDD45002ED765 /* Main.storyboard */,
 				2754F5D7248BDD4C002ED765 /* Assets.xcassets */,
 				2754F5D9248BDD4C002ED765 /* LaunchScreen.storyboard */,
@@ -138,9 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2754F5E5248BECEA002ED765 /* GridHeaderView.swift in Sources */,
+				27526AB0248C25AB0059B0D4 /* WeatherViewController.swift in Sources */,
+				2754F5E3248BDF5E002ED765 /* GridViewController.swift in Sources */,
+				2752C7DC248C066C00810CF2 /* CategoryRow.swift in Sources */,
+				27526AAE248C192B0059B0D4 /* NetFlixCollectionViewCell.swift in Sources */,
+				27526AB9248C34240059B0D4 /* WeatherMainCell.swift in Sources */,
 				2754F5D3248BDD45002ED765 /* ViewController.swift in Sources */,
+				27526AB2248C28030059B0D4 /* AdTableViewCell.swift in Sources */,
 				2754F5CF248BDD45002ED765 /* AppDelegate.swift in Sources */,
 				2754F5D1248BDD45002ED765 /* SceneDelegate.swift in Sources */,
+				2754F5E7248BECFE002ED765 /* GridFooterView.swift in Sources */,
+				2752C7DA248C037D00810CF2 /* NetFlixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
